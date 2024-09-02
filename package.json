@@ -1,0 +1,16 @@
+{
+  "name": "cypress_fresh",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "e2e:chrome": "cypress run --browser chrome --headed --spec cypress\\e2e\\Locators.cy.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "cypress": "^13.13.3",
+    "cypress-mochawesome-reporter": "^3.8.2",
+    "cypress-xpath": "^2.0.1"
+  }
+}
